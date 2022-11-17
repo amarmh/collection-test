@@ -1,6 +1,6 @@
 - name: collection test
   hosts: all
-    collections:
+  collections:
     - name: szhdevops.nsxtaid
   tasks:
     - name: test
