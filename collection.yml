@@ -5,3 +5,5 @@
   tasks:
     - name: test
       shell: echo "this is test"
+    
+    - debug: msg="{{ lookup('szhdevops.nsxtaid.res_query', nsxt_cred=nsxt_cred, res_type='Tier0') }}"
