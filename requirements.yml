@@ -2,6 +2,10 @@
 collections:
   #----------------------------------------
   # RedHat
-  - name: redhat.rhel_system_roles
+  # - name: redhat.rhel_system_roles
   - name: redhat.rhel_idm         
   - name: redhat.insights
+  # Galaxy 
+  - name: community.general
+  - name: community.vmware
+  - name: freeipa.ansible_freeipa
