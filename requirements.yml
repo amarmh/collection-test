@@ -7,5 +7,5 @@ collections:
   #- name: redhat.insights
   # Galaxy 
   - name: community.general
-  - name: community.vmware
-  - name: freeipa.ansible_freeipa
+  #- name: community.vmware
+  #- name: freeipa.ansible_freeipa
