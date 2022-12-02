@@ -1,9 +1,14 @@
-- name: collection test
+#- name: collection test
+#  hosts: all
+#  collections:
+#    - szhdevops.nsxtaid
+#  tasks:
+#    - name: test
+#      shell: echo "this is test"
+#    
+#    - debug: msg="{{ lookup('szhdevops.nsxtaid') }}"
+- name: test 
   hosts: all
-  collections:
-    - szhdevops.nsxtaid
   tasks:
     - name: test
-      shell: echo "this is test"
-    
-    - debug: msg="{{ lookup('szhdevops.nsxtaid') }}"
+      command: date
